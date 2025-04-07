@@ -21,3 +21,5 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 10MB
+download:
+  path: ${ENV_DOWNLOAD_PATH:http://localhost:8080/download}
